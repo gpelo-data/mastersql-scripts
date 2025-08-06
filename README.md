@@ -25,8 +25,8 @@ El proyecto es compatible con SQL Server y está pensado para aprendizaje y prue
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio/scripts
+git clone https://github.com/gpelo-data/mastersql-scripts.git
+cd mastersql-scripts/scripts
 ```
 
 ### 2. Crear las tablas
