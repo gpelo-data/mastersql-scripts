@@ -5,13 +5,13 @@
 -- Fecha: 2025-08-06
 -- ====================================================
 
--- 1. Crear la base de datos (opcional)
--- CREATE DATABASE MasterSQL;
--- GO
+-- 1. Crear la base de datos
+CREATE DATABASE RetoSQLSemanal;
+GO
 
 -- 2. Usar la base de datos
--- USE MasterSQL;
--- GO
+USE RetoSQLSemanal;
+GO
 
 -- ====================================================
 -- 3. Eliminar tablas si ya existen (para evitar errores al rehacer el script)
@@ -37,7 +37,7 @@ CREATE TABLE Emp (
     MGR INT NULL,
     HIREDATE DATE,
     SAL INT,
-    COMM INT NULL, 
+    COMM INT NULL,  
     DEPTNO INT
 );
 GO
